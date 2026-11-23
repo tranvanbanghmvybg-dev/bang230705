@@ -1,0 +1,6 @@
+ma_san_pham,ma_tram,dac_tinh,gia_tri_danh_nghia,dung_sai_duoi,dung_sai_tren,don_vi,phuong_phap,tan_suat
+SP-001,T1,Chiều dài phôi,252,-1,1,mm,Thước cặp,1/20 chiếc
+SP-001,T2,Đường kính bậc lắp ổ,30,-0.02,0,mm,Pan me,1/5 chiếc
+SP-001,T3,Chiều rộng rãnh then,8,0,0.04,mm,Dưỡng,1/5 chiếc
+SP-001,T4,Độ cứng bề mặt,50,-3,3,HRC,Máy đo độ cứng,1/10 chiếc
+SP-001,T5,Chiều dài tổng,250,-0.5,0.5,mm,Thước cặp,100%

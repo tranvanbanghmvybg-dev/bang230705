@@ -1,0 +1,8 @@
+ma_loi,ten_loi,ma_tram_phat_sinh,muc_do,huong_xu_ly
+L-01,Phôi cắt sai chiều dài,T1,nhẹ,"phôi ngắn hủy, phôi dài cắt lại"
+L-02,"Bề mặt tiện xước, vết dao",T2,nhẹ,làm lại
+L-03,Sai đường kính,T2,nặng,"lớn hơn làm lại, nhỏ hơn hủy"
+L-04,Rãnh then lệch tâm,T3,nặng,hủy
+L-05,Độ cứng không đạt,T4,nhẹ,tôi lại một lần
+L-06,Nứt sau tôi,T4,nặng,hủy
+L-07,"Gỉ, va đập khi đóng gói",T5,nhẹ,"làm sạch, đóng gói lại"

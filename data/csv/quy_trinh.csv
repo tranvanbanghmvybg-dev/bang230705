@@ -1,0 +1,16 @@
+ma_san_pham,thu_tu,ma_tram,ten_cong_doan,thoi_gian_chuan_phut,thoi_gian_chuan_bi_phut,ma_sop,nguon_tham_khao
+SP-001,1,T1,Cắt phôi,2,5,SOP-T1-01,Giá trị giả định ca mẫu
+SP-001,2,T2,Tiện thô và tiện tinh các bậc,6,20,SOP-T2-01,Giá trị giả định ca mẫu
+SP-001,3,T3,Phay rãnh then,5,15,SOP-T3-01,Giá trị giả định ca mẫu
+SP-001,4,T4,Tôi cao tần,4,10,SOP-T4-01,Giá trị giả định ca mẫu
+SP-001,5,T5,"Kiểm tra cuối, đóng gói",3,5,SOP-T5-01,Giá trị giả định ca mẫu
+SP-002,1,T1,Cắt phôi,2.5,5,SOP-T1-01,Giá trị giả định ca mẫu
+SP-002,2,T2,Tiện thô và tiện tinh các bậc,7.5,20,SOP-T2-01,Giá trị giả định ca mẫu
+SP-002,3,T3,Phay rãnh then,5,15,SOP-T3-01,Giá trị giả định ca mẫu
+SP-002,4,T4,Tôi cao tần,4.5,10,SOP-T4-01,Giá trị giả định ca mẫu
+SP-002,5,T5,"Kiểm tra cuối, đóng gói",3,5,SOP-T5-01,Giá trị giả định ca mẫu
+SP-003,1,T1,Cắt phôi,1.5,5,SOP-T1-01,Giá trị giả định ca mẫu
+SP-003,2,T2,Tiện thô và tiện tinh các bậc,5,20,SOP-T2-01,Giá trị giả định ca mẫu
+SP-003,3,T3,Phay rãnh then,4,15,SOP-T3-01,Giá trị giả định ca mẫu
+SP-003,4,T4,Tôi cao tần,3.5,10,SOP-T4-01,Giá trị giả định ca mẫu
+SP-003,5,T5,"Kiểm tra cuối, đóng gói",3,5,SOP-T5-01,Giá trị giả định ca mẫu
