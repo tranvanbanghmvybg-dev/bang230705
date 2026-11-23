@@ -22,3 +22,20 @@ SELECT v.ma_vat_tu, v.ten_vat_tu, v.ton_toi_thieu,
 FROM vat_tu v LEFT JOIN lo_vat_tu l ON l.ma_vat_tu = v.ma_vat_tu
 GROUP BY v.ma_vat_tu
 HAVING ton < v.ton_toi_thieu;
+-- Q6. Số công nhân có kỹ năng tại từng trạm (kỳ vọng 4 người mỗi trạm T1–T5)
+SELECT t.ma_tram, t.ten_tram, COUNT(k.ma_nv) AS so_cong_nhan
+FROM tram t
+LEFT JOIN ky_nang k ON t.ma_tram = k.ma_tram
+GROUP BY t.ma_tram, t.ten_tram
+ORDER BY t.thu_tu_tren_day_chuyen;
+-- Q7. Tổng nhu cầu phút gia công của 8 đơn hàng, gom theo sản phẩm
+SELECT d.ma_san_pham,
+       SUM(d.so_luong * q_tong.tong_phut_moi_sp) AS tong_nhu_cau_phut
+FROM don_hang d
+JOIN (
+    SELECT ma_san_pham, SUM(thoi_gian_chuan_phut) AS tong_phut_moi_sp
+    FROM quy_trinh
+    GROUP BY ma_san_pham
+) q_tong ON d.ma_san_pham = q_tong.ma_san_pham
+GROUP BY d.ma_san_pham
+ORDER BY d.ma_san_pham;
